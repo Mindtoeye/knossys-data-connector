@@ -1,0 +1,271 @@
+2019-02-15 13:30:57 INFO  BaseService:51 - standaloneInit ()
+2019-02-15 13:30:57 INFO  BaseService:51 - loadProperties ()
+2019-02-15 13:30:57 INFO  BaseService:51 - Knossys home: /Users/vvelsen/.knossys
+2019-02-15 13:30:57 INFO  BaseService:51 - Loading configuration file from: /Users/vvelsen/.knossys/chaperone.properties
+2019-02-15 13:30:57 INFO  BaseService:51 - We're properly configured through a properties file in the home directory, bump
+2019-02-15 13:30:57 INFO  KTestingTools:60 - parseArgs ()
+2019-02-15 13:30:57 INFO  KTestingTools:60 - runPipeline ()
+2019-02-15 13:30:57 INFO  KModuleThreadManager:60 - runPipelineLocal ()
+2019-02-15 13:30:57 INFO  KModuleThreadManager:60 - reset ()
+2019-02-15 13:30:57 INFO  KModuleThreadManager:60 - check ()
+2019-02-15 13:30:57 INFO  KModuleThreadManager:60 - Loading pipeline JSON ...
+2019-02-15 13:30:57 INFO  BaseService:60 - loadContents (./tests/pipeline-timer-generate.json)
+2019-02-15 13:30:57 INFO  BaseService:60 - Loaded 2055 characters
+2019-02-15 13:30:57 INFO  BaseService:60 - parsePipeline ()
+2019-02-15 13:30:57 INFO  BaseService:60 - Pipeline Meta Data:
+2019-02-15 13:30:57 INFO  BaseService:60 - +- Name: timer-generate-test
+2019-02-15 13:30:57 INFO  BaseService:60 - +- ID: a3b49428-f923-4d73-5432-5d3037177afa
+2019-02-15 13:30:57 INFO  BaseService:60 - +- Start: Dataset Generator
+2019-02-15 13:30:57 INFO  KModuleThreadManager:60 - loadModule ()
+2019-02-15 13:30:57 INFO  KModuleThreadManager:60 - run ()
+2019-02-15 13:30:57 INFO  KModuleThreadManager:60 - addThread ()
+2019-02-15 13:30:57 INFO  KModuleThreadManager:60 - loadModule ()
+2019-02-15 13:30:57 INFO  KModuleBase:60 - run ()
+2019-02-15 13:30:57 INFO  KModuleBase:60 - generateData ()
+2019-02-15 13:30:57 INFO  KModuleThreadManager:60 - addThread ()
+2019-02-15 13:30:57 INFO  KModuleThreadManager:60 - loadModule ()
+2019-02-15 13:30:57 INFO  KModuleBase:60 - run ()
+2019-02-15 13:30:57 INFO  KModuleBase:60 - Compilation error: the derived class needs to overwrite run ()
+2019-02-15 13:30:57 INFO  KModuleThreadManager:60 - addThread ()
+2019-02-15 13:30:57 INFO  PipelineModuleConsole:60 - run ()
+2019-02-15 13:30:57 INFO  PipelineModuleConsole:60 - consoleLoop
+2019-02-15 13:30:57 INFO  KModuleBase:60 - We're using HiVis' version of our dataset ...
+2019-02-15 13:30:57 INFO  KModuleBase:60 - All done
+2019-02-15 13:30:57 INFO  KModuleThreadManager:60 - Inspecting data with command: 0:copy (0), by thread:0 and data id: dcd73648-cddc-4598-8c70-7eeb81a085c4
+2019-02-15 13:30:57 INFO  KModuleThreadManager:60 - Non core command: 0:copy (0)
+2019-02-15 13:30:57 INFO  KModuleThreadManager:60 - Propagate (0)
+2019-02-15 13:30:57 INFO  BaseService:60 - {"format": "FORMAT_DATAASROWS", "headers": [{ "label": "ints", "type": "int"},{ "label": "reals", "type": "double"},{ "label": "strs", "type": "string"}],"table": [], "data": [["6", "8.799243502015146", "a"], ["6", "3.2302075117843634", "b"], ["1", "9.448289170205475", "c"], ["1", "9.114158028480713", "d"], ["4", "5.713791022573264", "e"]]}
+2019-02-15 13:30:57 INFO  BaseService:60 - [{ "label": "ints", "type": "int"},{ "label": "reals", "type": "double"},{ "label": "strs", "type": "string"}]
+2019-02-15 13:30:57 INFO  KModuleThreadManager:60 - Saving temp data to: /Users/vvelsen/.knossys/chaperone/data
+2019-02-15 13:30:57 INFO  BaseService:60 - saveContents (/Users/vvelsen/.knossys/chaperone/data/M-0-Ddcd73648-cddc-4598-8c70-7eeb81a085c4.json)
+2019-02-15 13:30:57 INFO  BaseService:60 - getNextNodes ()
+2019-02-15 13:30:57 INFO  BaseService:60 - findEdges (from:Dataset Generator)
+2019-02-15 13:30:57 INFO  BaseService:60 - Found candidate edge: Dataset Generator
+2019-02-15 13:31:01 INFO  KModuleBase:60 - generateData ()
+2019-02-15 13:31:01 INFO  KModuleBase:60 - We're using HiVis' version of our dataset ...
+2019-02-15 13:31:01 INFO  KModuleBase:60 - All done
+2019-02-15 13:31:05 INFO  KModuleBase:60 - generateData ()
+2019-02-15 13:31:05 INFO  KModuleBase:60 - We're using HiVis' version of our dataset ...
+2019-02-15 13:31:05 INFO  KModuleBase:60 - All done
+2019-02-15 13:33:57 INFO  BaseService:51 - standaloneInit ()
+2019-02-15 13:33:57 INFO  BaseService:51 - loadProperties ()
+2019-02-15 13:33:57 INFO  BaseService:51 - Knossys home: /Users/vvelsen/.knossys
+2019-02-15 13:33:57 INFO  BaseService:51 - Loading configuration file from: /Users/vvelsen/.knossys/chaperone.properties
+2019-02-15 13:33:57 INFO  BaseService:51 - We're properly configured through a properties file in the home directory, bump
+2019-02-15 13:33:57 INFO  KTestingTools:60 - parseArgs ()
+2019-02-15 13:33:57 INFO  KTestingTools:60 - runPipeline ()
+2019-02-15 13:33:57 INFO  KModuleThreadManager:60 - runPipelineLocal ()
+2019-02-15 13:33:57 INFO  KModuleThreadManager:60 - reset ()
+2019-02-15 13:33:57 INFO  KModuleThreadManager:60 - check ()
+2019-02-15 13:33:57 INFO  KModuleThreadManager:60 - Loading pipeline JSON ...
+2019-02-15 13:33:57 INFO  BaseService:60 - loadContents (./tests/pipeline-timer-generate.json)
+2019-02-15 13:33:57 INFO  BaseService:60 - Loaded 2055 characters
+2019-02-15 13:33:57 INFO  BaseService:60 - parsePipeline ()
+2019-02-15 13:33:57 INFO  BaseService:60 - Pipeline Meta Data:
+2019-02-15 13:33:57 INFO  BaseService:60 - +- Name: timer-generate-test
+2019-02-15 13:33:57 INFO  BaseService:60 - +- ID: a3b49428-f923-4d73-5432-5d3037177afa
+2019-02-15 13:33:57 INFO  BaseService:60 - +- Start: Dataset Generator
+2019-02-15 13:33:57 INFO  KModuleThreadManager:60 - loadModule ()
+2019-02-15 13:33:57 INFO  KModuleThreadManager:60 - run ()
+2019-02-15 13:33:57 INFO  KModuleThreadManager:60 - addThread ()
+2019-02-15 13:33:57 INFO  KModuleThreadManager:60 - loadModule ()
+2019-02-15 13:33:57 INFO  KModuleBase:60 - run ()
+2019-02-15 13:33:57 INFO  KModuleBase:60 - generateData ()
+2019-02-15 13:33:57 INFO  KModuleThreadManager:60 - addThread ()
+2019-02-15 13:33:57 INFO  KModuleThreadManager:60 - loadModule ()
+2019-02-15 13:33:57 INFO  KModuleBase:60 - run ()
+2019-02-15 13:33:57 INFO  KModuleBase:60 - Compilation error: the derived class needs to overwrite run ()
+2019-02-15 13:33:57 INFO  KModuleThreadManager:60 - addThread ()
+2019-02-15 13:33:57 INFO  PipelineModuleConsole:60 - run ()
+2019-02-15 13:33:57 INFO  PipelineModuleConsole:60 - consoleLoop
+2019-02-15 13:33:57 INFO  KModuleBase:60 - We're using HiVis' version of our dataset ...
+2019-02-15 13:33:57 INFO  KModuleBase:60 - All done
+2019-02-15 13:33:57 INFO  KModuleThreadManager:60 - Inspecting data with command: 0:copy (0), by thread:0 and data id: d7dadc68-022f-4669-8b7a-f1d43ea8d0da
+2019-02-15 13:33:57 INFO  KModuleThreadManager:60 - Non core command: 0:copy (0)
+2019-02-15 13:33:57 INFO  KModuleThreadManager:60 - Propagate (0)
+2019-02-15 13:33:58 INFO  BaseService:60 - {"format": "FORMAT_DATAASROWS", "headers": [{ "label": "ints", "type": "int"},{ "label": "reals", "type": "double"},{ "label": "strs", "type": "string"}],"table": [], "data": [["7", "7.445719734705775", "a"], ["10", "7.6413406995157604", "b"], ["3", "7.306331264513912", "c"], ["9", "0.6771603624130107", "d"], ["5", "4.447547279927717", "e"]]}
+2019-02-15 13:33:58 INFO  BaseService:60 - [{ "label": "ints", "type": "int"},{ "label": "reals", "type": "double"},{ "label": "strs", "type": "string"}]
+2019-02-15 13:33:58 INFO  KModuleThreadManager:60 - Saving temp data to: /Users/vvelsen/.knossys/chaperone/data
+2019-02-15 13:33:58 INFO  BaseService:60 - saveContents (/Users/vvelsen/.knossys/chaperone/data/M-0-Dd7dadc68-022f-4669-8b7a-f1d43ea8d0da.json)
+2019-02-15 13:33:58 INFO  BaseService:60 - getNextNodes ()
+2019-02-15 13:33:58 INFO  BaseService:60 - findEdges (from:Dataset Generator)
+2019-02-15 13:33:58 INFO  BaseService:60 - Found candidate edge: Dataset Generator
+2019-02-15 14:13:47 INFO  BaseService:51 - standaloneInit ()
+2019-02-15 14:13:47 INFO  BaseService:51 - loadProperties ()
+2019-02-15 14:13:47 INFO  BaseService:51 - Knossys home: /Users/vvelsen/.knossys
+2019-02-15 14:13:47 INFO  BaseService:51 - Loading configuration file from: /Users/vvelsen/.knossys/chaperone.properties
+2019-02-15 14:13:47 INFO  BaseService:51 - We're properly configured through a properties file in the home directory, bump
+2019-02-15 14:13:47 INFO  KTestingTools:60 - parseArgs ()
+2019-02-15 14:13:47 INFO  KTestingTools:60 - runPipeline ()
+2019-02-15 14:13:47 INFO  KModuleThreadManager:60 - runPipelineLocal ()
+2019-02-15 14:13:47 INFO  KModuleThreadManager:60 - reset ()
+2019-02-15 14:13:47 INFO  KModuleThreadManager:60 - check ()
+2019-02-15 14:13:47 INFO  KModuleThreadManager:60 - Loading pipeline JSON ...
+2019-02-15 14:13:47 INFO  BaseService:60 - loadContents (./tests/pipeline-timer-generate.json)
+2019-02-15 14:13:47 INFO  BaseService:60 - Loaded 2055 characters
+2019-02-15 14:13:47 INFO  BaseService:60 - parsePipeline ()
+2019-02-15 14:13:47 INFO  BaseService:60 - Pipeline Meta Data:
+2019-02-15 14:13:47 INFO  BaseService:60 - +- Name: timer-generate-test
+2019-02-15 14:13:47 INFO  BaseService:60 - +- ID: a3b49428-f923-4d73-5432-5d3037177afa
+2019-02-15 14:13:47 INFO  BaseService:60 - +- Start: Dataset Generator
+2019-02-15 14:13:47 INFO  KModuleThreadManager:60 - loadModule ()
+2019-02-15 14:13:47 INFO  KModuleThreadManager:60 - run ()
+2019-02-15 14:13:47 INFO  KModuleThreadManager:60 - addThread ()
+2019-02-15 14:13:47 INFO  KModuleThreadManager:60 - loadModule ()
+2019-02-15 14:13:47 INFO  KModuleBase:60 - run ()
+2019-02-15 14:13:47 INFO  KModuleBase:60 - generateData ()
+2019-02-15 14:13:47 INFO  KModuleThreadManager:60 - addThread ()
+2019-02-15 14:13:47 INFO  KModuleThreadManager:60 - loadModule ()
+2019-02-15 14:13:47 INFO  KModuleBase:60 - run ()
+2019-02-15 14:13:47 INFO  KModuleBase:60 - Compilation error: the derived class needs to overwrite run ()
+2019-02-15 14:13:47 INFO  KModuleThreadManager:60 - addThread ()
+2019-02-15 14:13:47 INFO  PipelineModuleConsole:60 - run ()
+2019-02-15 14:13:47 INFO  PipelineModuleConsole:60 - consoleLoop
+2019-02-15 14:13:47 INFO  KModuleBase:60 - We're using HiVis' version of our dataset ...
+2019-02-15 14:13:47 INFO  KModuleBase:60 - All done
+2019-02-15 14:13:47 INFO  KModuleThreadManager:60 - Inspecting data with command: 0:copy (0), by thread:0 and data id: af165d14-0a9c-4847-b048-6a7d82ac28aa
+2019-02-15 14:13:47 INFO  KModuleThreadManager:60 - Non core command: 0:copy (0)
+2019-02-15 14:13:47 INFO  KModuleThreadManager:60 - Propagate (0)
+2019-02-15 14:13:47 INFO  BaseService:60 - {"format": "FORMAT_DATAASROWS", "headers": [{ "label": "ints", "type": "int"},{ "label": "reals", "type": "double"},{ "label": "strs", "type": "string"}],"table": [], "data": [["1", "7.28287387163932", "a"], ["2", "4.8345354916078875", "b"], ["7", "5.369774217137394", "c"], ["0", "0.8592327145665979", "d"], ["2", "7.349567838905755", "e"]]}
+2019-02-15 14:13:47 INFO  BaseService:60 - [{ "label": "ints", "type": "int"},{ "label": "reals", "type": "double"},{ "label": "strs", "type": "string"}]
+2019-02-15 14:13:47 INFO  KModuleThreadManager:60 - Saving temp data to: /Users/vvelsen/.knossys/chaperone/data
+2019-02-15 14:13:47 INFO  BaseService:60 - saveContents (/Users/vvelsen/.knossys/chaperone/data/M-0-Daf165d14-0a9c-4847-b048-6a7d82ac28aa.json)
+2019-02-15 14:13:47 INFO  BaseService:60 - getNextNodes ()
+2019-02-15 14:13:47 INFO  BaseService:60 - findEdges (from:Dataset Generator)
+2019-02-15 14:13:47 INFO  BaseService:60 - Found candidate edge: Dataset Generator
+2019-02-15 14:15:44 INFO  BaseService:51 - standaloneInit ()
+2019-02-15 14:15:44 INFO  BaseService:51 - loadProperties ()
+2019-02-15 14:15:44 INFO  BaseService:51 - Knossys home: /Users/vvelsen/.knossys
+2019-02-15 14:15:44 INFO  BaseService:51 - Loading configuration file from: /Users/vvelsen/.knossys/chaperone.properties
+2019-02-15 14:15:44 INFO  BaseService:51 - We're properly configured through a properties file in the home directory, bump
+2019-02-15 14:15:44 INFO  KTestingTools:60 - parseArgs ()
+2019-02-15 14:15:44 INFO  KTestingTools:60 - runPipeline ()
+2019-02-15 14:15:44 INFO  KModuleThreadManager:60 - runPipelineLocal ()
+2019-02-15 14:15:44 INFO  KModuleThreadManager:60 - reset ()
+2019-02-15 14:15:44 INFO  KModuleThreadManager:60 - check ()
+2019-02-15 14:15:44 INFO  KModuleThreadManager:60 - Loading pipeline JSON ...
+2019-02-15 14:15:44 INFO  BaseService:60 - loadContents (./tests/pipeline-schedule.json)
+2019-02-15 14:15:44 INFO  BaseService:60 - Loaded 888 characters
+2019-02-15 14:15:44 INFO  BaseService:60 - parsePipeline ()
+2019-02-15 14:15:44 INFO  BaseService:60 - Pipeline Meta Data:
+2019-02-15 14:15:44 INFO  BaseService:60 - +- Name: scheduler-test
+2019-02-15 14:15:44 INFO  BaseService:60 - +- ID: a3b49428-f923-4d73-5432-5d3037177afa
+2019-02-15 14:15:44 INFO  BaseService:60 - +- Start: Scheduled Module
+2019-02-15 14:15:44 INFO  KModuleThreadManager:60 - loadModule ()
+2019-02-15 14:15:44 INFO  KModuleThreadManager:60 - run ()
+2019-02-15 14:15:44 INFO  KModuleThreadManager:60 - Can't find class: com.knossys.rnd.modules.general.PipelineModuleDebugScheduled: com.knossys.rnd.modules.general.PipelineModuleDebugScheduled
+2019-02-15 14:18:17 INFO  BaseService:51 - standaloneInit ()
+2019-02-15 14:18:17 INFO  BaseService:51 - loadProperties ()
+2019-02-15 14:18:17 INFO  BaseService:51 - Knossys home: /Users/vvelsen/.knossys
+2019-02-15 14:18:17 INFO  BaseService:51 - Loading configuration file from: /Users/vvelsen/.knossys/chaperone.properties
+2019-02-15 14:18:17 INFO  BaseService:51 - We're properly configured through a properties file in the home directory, bump
+2019-02-15 14:18:17 INFO  KTestingTools:60 - parseArgs ()
+2019-02-15 14:18:17 INFO  KTestingTools:60 - runPipeline ()
+2019-02-15 14:18:17 INFO  KModuleThreadManager:60 - runPipelineLocal ()
+2019-02-15 14:18:17 INFO  KModuleThreadManager:60 - reset ()
+2019-02-15 14:18:17 INFO  KModuleThreadManager:60 - check ()
+2019-02-15 14:18:17 INFO  KModuleThreadManager:60 - Loading pipeline JSON ...
+2019-02-15 14:18:17 INFO  BaseService:60 - loadContents (./tests/pipeline-schedule.json)
+2019-02-15 14:18:17 INFO  BaseService:60 - Loaded 888 characters
+2019-02-15 14:18:17 INFO  BaseService:60 - parsePipeline ()
+2019-02-15 14:18:17 INFO  BaseService:60 - Pipeline Meta Data:
+2019-02-15 14:18:17 INFO  BaseService:60 - +- Name: scheduler-test
+2019-02-15 14:18:17 INFO  BaseService:60 - +- ID: a3b49428-f923-4d73-5432-5d3037177afa
+2019-02-15 14:18:17 INFO  BaseService:60 - +- Start: Scheduled Module
+2019-02-15 14:18:17 INFO  KModuleThreadManager:60 - loadModule ()
+2019-02-15 14:18:17 INFO  KModuleThreadManager:60 - run ()
+2019-02-15 14:18:17 INFO  KModuleThreadManager:60 - addThread ()
+2019-02-15 14:18:17 INFO  KModuleBase:60 - run ()
+2019-02-15 14:18:17 INFO  KModuleBase:60 - Compilation error: the derived class needs to overwrite run ()
+2019-02-17 10:39:44 INFO  BaseService:51 - standaloneInit ()
+2019-02-17 10:39:44 INFO  BaseService:51 - loadProperties ()
+2019-02-17 10:39:44 INFO  BaseService:51 - Knossys home: /Users/vvelsen/.knossys
+2019-02-17 10:39:44 INFO  BaseService:51 - Loading configuration file from: /Users/vvelsen/.knossys/chaperone.properties
+2019-02-17 10:39:44 INFO  BaseService:51 - We're properly configured through a properties file in the home directory, bump
+2019-02-17 10:39:44 INFO  KTestingTools:60 - parseArgs ()
+2019-02-17 10:39:44 INFO  KTestingTools:60 - runPipeline ()
+2019-02-17 10:39:44 INFO  KModuleThreadManager:60 - runPipelineLocal ()
+2019-02-17 10:39:44 INFO  KModuleThreadManager:60 - reset ()
+2019-02-17 10:39:44 INFO  KModuleThreadManager:60 - check ()
+2019-02-17 10:39:44 INFO  KModuleThreadManager:60 - Loading pipeline JSON ...
+2019-02-17 10:39:44 INFO  BaseService:60 - loadContents (./tests/pipeline-schedule.json)
+2019-02-17 10:39:44 INFO  BaseService:60 - Loaded 888 characters
+2019-02-17 10:39:44 INFO  BaseService:60 - parsePipeline ()
+2019-02-17 10:39:44 INFO  BaseService:60 - Pipeline Meta Data:
+2019-02-17 10:39:44 INFO  BaseService:60 - +- Name: scheduler-test
+2019-02-17 10:39:44 INFO  BaseService:60 - +- ID: a3b49428-f923-4d73-5432-5d3037177afa
+2019-02-17 10:39:44 INFO  BaseService:60 - +- Start: Scheduled Module
+2019-02-17 10:39:44 INFO  KModuleThreadManager:60 - loadModule ()
+2019-02-17 10:39:44 INFO  KModuleThreadManager:60 - run ()
+2019-02-17 10:39:44 INFO  KModuleThreadManager:60 - addThread ()
+2019-02-17 10:39:44 INFO  KModuleBase:60 - run ()
+2019-02-17 10:39:44 INFO  KModuleBase:60 - Compilation error: the derived class needs to overwrite run ()
+2019-02-24 11:02:50 INFO  KPipelineTestApp:65 - parseArgs ()
+2019-02-24 11:02:50 INFO  KPipelineTestApp:50 - runPipeline ()
+2019-02-24 11:06:00 INFO  KPipelineTestApp:65 - parseArgs ()
+2019-02-24 11:06:00 INFO  KPipelineTestApp:50 - runPipeline ()
+2019-02-24 11:09:30 INFO  KPipelineTestApp:65 - parseArgs ()
+2019-02-24 11:09:30 INFO  KPipelineTestApp:50 - runPipeline ()
+2019-02-24 11:16:11 INFO  KPipelineTestApp:65 - parseArgs ()
+2019-02-24 11:16:11 INFO  KPipelineTestApp:50 - runPipeline ()
+2019-02-24 11:16:11 INFO  KModuleThreadManager:60 - runPipelineLocal ()
+2019-02-24 11:16:11 INFO  KModuleThreadManager:60 - reset ()
+2019-02-24 11:16:11 INFO  KModuleThreadManager:60 - check ()
+2019-02-24 11:16:11 INFO  KModuleThreadManager:60 - Internal error: can't obtain base path for persistence location, creating local temporary one ...
+2019-02-24 11:16:11 INFO  Base:60 - checkCreate (./persistence)
+2019-02-24 11:16:11 INFO  Base:60 - Directory already exists
+2019-02-24 11:16:11 INFO  KModuleThreadManager:60 - Loading pipeline JSON ...
+2019-02-24 11:16:11 INFO  Base:60 - loadContents (./tests/pipeline-schedule.json)
+2019-02-24 11:16:11 INFO  Base:60 - Loaded 1004 characters
+2019-02-24 11:16:11 INFO  Base:60 - parsePipeline ()
+2019-02-24 11:16:11 INFO  Base:60 - Pipeline Meta Data:
+2019-02-24 11:16:11 INFO  Base:60 - +- Name: scheduler-test
+2019-02-24 11:16:11 INFO  Base:60 - +- ID: a3b49428-f923-4d73-5432-5d3037177afa
+2019-02-24 11:16:11 INFO  Base:60 - +- Start: Scheduled Module
+2019-02-24 11:16:11 INFO  KModuleThreadManager:60 - loadModule ()
+2019-02-24 11:16:11 INFO  KModuleThreadManager:60 - run ()
+2019-02-24 11:16:11 INFO  KModuleThreadManager:60 - addThread ()
+2019-02-24 11:16:11 INFO  KModuleBase:60 - run ()
+2019-02-24 11:16:11 INFO  KModuleBase:60 - Compilation error: the derived class needs to overwrite run ()
+2019-02-28 08:25:14 INFO  KPipelineTestApp:65 - parseArgs ()
+2019-02-28 08:25:14 INFO  KPipelineTestApp:50 - runPipeline ()
+2019-02-28 08:25:14 INFO  KModuleThreadManager:60 - runPipelineLocal ()
+2019-02-28 08:25:14 INFO  KModuleThreadManager:60 - reset ()
+2019-02-28 08:25:14 INFO  KModuleThreadManager:60 - check ()
+2019-02-28 08:25:14 INFO  KModuleThreadManager:60 - Internal error: can't obtain base path for persistence location, creating local temporary one ...
+2019-02-28 08:25:14 INFO  Base:60 - checkCreate (./persistence)
+2019-02-28 08:25:14 INFO  Base:60 - Directory already exists
+2019-02-28 08:25:14 INFO  KModuleThreadManager:60 - Loading pipeline JSON ...
+2019-02-28 08:25:14 INFO  Base:60 - loadContents (./tests/pipeline-schedule.json)
+2019-02-28 08:25:14 INFO  Base:60 - Loaded 1004 characters
+2019-02-28 08:25:14 INFO  Base:60 - parsePipeline ()
+2019-02-28 08:25:14 INFO  Base:60 - Pipeline Meta Data:
+2019-02-28 08:25:14 INFO  Base:60 - +- Name: scheduler-test
+2019-02-28 08:25:14 INFO  Base:60 - +- ID: a3b49428-f923-4d73-5432-5d3037177afa
+2019-02-28 08:25:14 INFO  Base:60 - +- Start: Scheduled Module
+2019-02-28 08:25:14 INFO  KModuleThreadManager:60 - run ()
+2019-02-28 08:25:14 INFO  KModuleThreadManager:60 - loadModule ()
+2019-02-28 08:25:14 INFO  KModuleThreadManager:60 - addThread ()
+2019-02-28 08:25:14 INFO  KModuleBase:60 - run ()
+2019-02-28 08:25:14 INFO  KModuleBase:60 - Compilation error: the derived class needs to overwrite run ()
+2022-03-14 13:51:27 INFO  KPipelineTestApp:66 - parseArgs ()
+2022-03-14 13:51:27 INFO  KPipelineTestApp:50 - runPipelineLocal ()
+2022-10-31 11:39:02 INFO  KDataConnector:23 - parseArgs ()
+2022-10-31 11:39:02 INFO  KDataConnector:37 - run ()
+2022-10-31 12:11:31 INFO  KDataConnector:31 - init()
+2022-10-31 12:11:31 INFO  KDataConnector:54 - Error: directory does not exist: KData
+2022-10-31 12:11:40 INFO  KDataConnector:31 - init()
+2022-10-31 12:11:40 INFO  KDataConnector:77 - processEvents()
+2022-10-31 12:26:47 INFO  KDataConnector:31 - init()
+2022-10-31 12:26:47 INFO  KDataConnector:76 - monitor()
+2022-10-31 13:14:03 INFO  KDataConnector:33 - init()
+2022-10-31 13:14:03 INFO  KDataConnector:81 - monitor()
+2022-10-31 13:14:24 INFO  KDataConnector:134 - processFile()
+2022-10-31 13:15:56 INFO  KDataConnector:33 - init()
+2022-10-31 13:15:56 INFO  KDataConnector:81 - monitor()
+2022-10-31 13:16:00 INFO  KDataConnector:134 - processFile(Bedillion-Peer_Evaluation_3-24-101_Section_B-Fall_2021.csv)
+2022-10-31 13:16:00 INFO  KDataConnector:146 - No valid processor found
+2022-10-31 13:18:07 INFO  KDataConnector:33 - init()
+2022-10-31 13:18:07 INFO  KDataConnector:81 - monitor()
+2022-10-31 13:18:12 INFO  KDataConnector:134 - processFile (Bedillion-Peer_Evaluation_3-24-101_Section_D-Fall_2021.csv)
+2022-10-31 13:18:12 INFO  KDataConnector:163 - processCSV(KData/Bedillion-Peer_Evaluation_3-24-101_Section_D-Fall_2021.csv)
