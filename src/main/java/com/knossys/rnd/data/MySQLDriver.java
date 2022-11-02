@@ -235,7 +235,7 @@ public class MySQLDriver extends MySQLSSHDriver {
 		}
 
 		if ((dbHost.isEmpty() == true) || (dbName.isEmpty() == true) || (dbTable.isEmpty() == true) || (dbUsername.isEmpty() == true) || (dbPassword.isEmpty() == true)) {
-			M_log.info("The service has not been configured yet, please modify or use standalone.xml as provided in the code repository");
+			M_log.info("The service has not been configured yet, provide the minimum amount of information to connect to the database");
 			
 			if (dbHost.isEmpty() == true) {
 				M_log.info("dbHost is empty");

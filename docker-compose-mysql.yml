@@ -1,0 +1,21 @@
+###################################################################################
+#
+#
+#
+###################################################################################
+
+version: '3'
+services:
+
+  catmedb:
+    image: mysql:8.0.30
+    ports:
+     - 43306:3306
+    environment:
+      MYSQL_ROOT_PASSWORD: 4570WK821X6OiyT508srN09wI
+      MYSQL_DATABASE: knossys
+      MYSQL_USER: knossys
+      MYSQL_PASSWORD: 4570WK821X6OiyT508srN09wV
+    volumes:
+      - ./kdb:/var/lib/mysql
+    user: ${MYSQL_UID}

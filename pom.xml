@@ -16,6 +16,8 @@
 		<log4j.version>1.2.17</log4j.version>
 		<fluentd.version>0.2.11</fluentd.version>
 		<version.jboss.spec.javaee.7.0>1.0.0.Final</version.jboss.spec.javaee.7.0>
+
+		<javafx.version>11.0.2</javafx.version>		
 	</properties>
 
    <repositories>
@@ -79,6 +81,17 @@
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
 			<version>8.0.11</version>
+		</dependency>		
+		
+		<dependency>
+			<groupId>org.openjfx</groupId>
+			<artifactId>javafx-controls</artifactId>
+			<version>${javafx.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.openjfx</groupId>
+			<artifactId>javafx-graphics </artifactId>
+			<version>${javafx.version}</version>
 		</dependency>		
 		
 	</dependencies>

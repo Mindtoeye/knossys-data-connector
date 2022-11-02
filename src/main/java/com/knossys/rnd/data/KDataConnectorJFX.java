@@ -6,17 +6,25 @@ import java.nio.file.*;
 import static java.nio.file.StandardWatchEventKinds.*;
 import java.io.*;
 
+import javafx.application.Application;
+import javafx.scene.Group;
+import javafx.scene.Scene;
+import javafx.scene.control.Button;
+import javafx.scene.control.Label;
+import javafx.scene.control.TextField;
+import javafx.stage.Stage;
+
 /**
  * 
  */
-public class KDataConnector {
+public class KDataConnectorJFX extends Application {
 
-  private static Logger M_log = Logger.getLogger(KDataConnector.class);
+  private static Logger M_log = Logger.getLogger(KDataConnectorJFX.class);
   
   private WatchService watcher=null;
   private Path dir=null;
   
-  private KDatabaseConnector connector=null;
+  private MySQLDriver connector=null;
   
   /**
    *  
@@ -43,14 +51,6 @@ public class KDataConnector {
       String anArg=args [i];
       if (anArg.equalsIgnoreCase("-d")==true) {
         dir = Paths.get(args [i+1]);
-        
-        M_log.info("Checking to see if the portal directory exists: " + dir.toString());
-        
-        try {
-          Files.createDirectories(dir);
-        } catch (IOException e) {
-          M_log.info("Error creating data directory: " + e.getMessage());
-        }
       }
     }
     
@@ -76,7 +76,7 @@ public class KDataConnector {
       M_log.info(e.getMessage()); 
     }
     
-    connector=new KDatabaseConnector ();
+    connector=new MySQLDriver ();
     connector.init();
     
     return (true);
@@ -171,13 +171,41 @@ public class KDataConnector {
     M_log.info("processCSV("+filename+")");
     
   }
+
+  @Override
+  public void start(Stage primaryStage) throws Exception {
+    M_log.info("start()");
+    
+    final TextField nameText = new TextField();
+    nameText.setText("Stef");
+    nameText.setLayoutX(10);
+    nameText.setLayoutY(10);
+
+    final Button button = new Button();
+    button.setLayoutX(160);
+    button.setLayoutY(10);
+    button.setText("Greet me!");
+
+    final Label greetingLabel = new Label();
+    greetingLabel.setLayoutX(10);
+    greetingLabel.setLayoutY(40);
+
+    button.setOnAction(event -> greetingLabel.setText("Hello " + nameText.getText() + "!"));
+
+    final Group root = new Group();
+    root.getChildren().addAll(nameText, button, greetingLabel);
+
+    primaryStage.setTitle("Hello World");
+    primaryStage.setScene(new Scene(root, 240, 70));
+    primaryStage.show();    
+  }  
   
   /** 
    * @param args
    * @throws IOException
    */
   public static void main(String[] args) throws IOException {
-    KDataConnector connector=new KDataConnector();
+    KDataConnectorJFX connector=new KDataConnectorJFX();
     if (connector.init(args)==true) {
       connector.monitor();
     }
