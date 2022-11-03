@@ -356,3 +356,48 @@
  PRIMARY KEY (id));
 2022-11-02 12:08:50 INFO  KDatabaseConnector:88 - Result: 0
 2022-11-02 12:08:50 INFO  KDataConnector:89 - monitor()
+2022-11-02 12:23:01 INFO  KDataConnector:33 - init()
+2022-11-02 12:23:01 INFO  KDataConnector:47 - Checking to see if the portal directory exists: /home/vvelsen/kdata
+2022-11-02 12:23:01 INFO  KDatabaseConnector:16 - configureEnvironment ()
+2022-11-02 12:23:01 INFO  KDatabaseConnector:21 - dbHost: 127.0.0.1
+2022-11-02 12:23:01 INFO  KDatabaseConnector:28 - dbPort: 43306
+2022-11-02 12:23:01 INFO  KDatabaseConnector:33 - dbName: knossys
+2022-11-02 12:23:01 INFO  KDatabaseConnector:38 - dbTable: portal
+2022-11-02 12:23:01 INFO  KDatabaseConnector:43 - dbUsername: knossys
+2022-11-02 12:23:01 INFO  KDatabaseConnector:49 - dbPassword set.
+2022-11-02 12:23:01 INFO  KDatabaseConnector:65 - prepTables ()
+2022-11-02 12:23:01 INFO  KDatabaseConnector:84 - Executing: CREATE TABLE IF NOT EXISTS knossys.files (
+ id VARCHAR(40) NOT NULL,
+ date VARCHAR(100) NOT NULL,
+ filename VARCHAR(200) NOT NULL,
+ data LONGTEXT NOT NULL,
+ PRIMARY KEY (id));
+2022-11-02 12:23:01 INFO  KDatabaseConnector:88 - Result: 0
+2022-11-02 12:23:01 INFO  KDataConnector:89 - monitor()
+2022-11-02 13:41:29 INFO  KDataConnector:33 - init()
+2022-11-02 13:41:29 INFO  KDataConnector:47 - Checking to see if the portal directory exists: /home/vvelsen/kdata
+2022-11-02 13:41:29 INFO  KDatabaseConnector:16 - configureEnvironment ()
+2022-11-02 13:41:29 INFO  KDataConnector:89 - monitor()
+2022-11-02 13:44:59 INFO  KDataConnector:33 - init()
+2022-11-02 13:44:59 INFO  KDataConnector:47 - Checking to see if the portal directory exists: /home/vvelsen/kdata
+2022-11-02 13:44:59 INFO  KDatabaseConnector:16 - configureEnvironment ()
+2022-11-02 13:44:59 INFO  KDatabaseConnector:49 - dbPassword set.
+2022-11-02 13:44:59 INFO  KDataConnector:89 - monitor()
+2022-11-02 13:45:08 INFO  KDataConnector:33 - init()
+2022-11-02 13:45:08 INFO  KDataConnector:47 - Checking to see if the portal directory exists: /home/vvelsen/kdata
+2022-11-02 13:45:08 INFO  KDatabaseConnector:16 - configureEnvironment ()
+2022-11-02 13:45:08 INFO  KDatabaseConnector:21 - dbHost: 127.0.0.1
+2022-11-02 13:45:08 INFO  KDatabaseConnector:28 - dbPort: 43306
+2022-11-02 13:45:08 INFO  KDatabaseConnector:33 - dbName: knossys
+2022-11-02 13:45:08 INFO  KDatabaseConnector:38 - dbTable: portal
+2022-11-02 13:45:08 INFO  KDatabaseConnector:43 - dbUsername: knossys
+2022-11-02 13:45:08 INFO  KDatabaseConnector:49 - dbPassword set.
+2022-11-02 13:45:09 INFO  KDatabaseConnector:65 - prepTables ()
+2022-11-02 13:45:09 INFO  KDatabaseConnector:84 - Executing: CREATE TABLE IF NOT EXISTS knossys.files (
+ id VARCHAR(40) NOT NULL,
+ date VARCHAR(100) NOT NULL,
+ filename VARCHAR(200) NOT NULL,
+ data LONGTEXT NOT NULL,
+ PRIMARY KEY (id));
+2022-11-02 13:45:09 INFO  KDatabaseConnector:88 - Result: 0
+2022-11-02 13:45:09 INFO  KDataConnector:89 - monitor()

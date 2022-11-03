@@ -10,7 +10,7 @@ public class KDatabaseConnector extends MySQLDriver {
   private static Logger M_log = Logger.getLogger(KDatabaseConnector.class);
   
   /**
-  *
+  * https://blog.jongallant.com/2020/04/java-dotenv-azure-sdk/
   */
   protected void configureEnvironment() {
     M_log.info("configureEnvironment ()");
